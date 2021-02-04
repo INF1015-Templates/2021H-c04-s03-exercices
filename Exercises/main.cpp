@@ -13,31 +13,40 @@
 #include <vector>
 #include <span>
 
-#include <tclap/CmdLine.h>
 #include <cppitertools/range.hpp>
 
-#include "competition.hpp"
-#include "params.hpp"
-#include "pointers.hpp"
+#include "Employee.hpp"
+#include "Company.hpp"
 
 using namespace std;
+using namespace iter;
+
+
+void runEmployeeExample() {
+	Employee marcel1 = Employee("Marcel",50000);
+	Employee marcel2("Marcel", 50000);
+	Employee marcel3{"Marcel", 50000};
+	//Employee marcel4 = Employee(); // Erreur si ctor par défaut pas défini
+	//Employee marcel5; // Erreur si ctor par défaut pas défini
+	cout << "- - - - - - - - - - - - - - - - - - - -" << "\n";
+}
+
+void runCompanyExample() {
+	Company stonks("Stonks LLC", "chosson");
+	stonks.getPresident().setSalary(69'420);
+	stonks.addEmployee("Foo", 69);
+	stonks.addEmployee("Bar", 42);
+	stonks.addEmployee("Qux", 9000);
+	stonks.addEmployee("Spam", 1337);
+	stonks.addEmployee("Eggs", 0xDEAD);
+	stonks.print();
+	cout << "- - - - - - - - - - - - - - - - - - - -" << "\n";
+}
 
 
 int main() {
-	cout << "Parameters example:" << "\n";
-	runParamsExample();
-	cout << string(50, '-') << "\n";
-
-	cout << "Competition example:" << "\n";
-	runCompetitionExample();
-	cout << string(50, '-') << "\n";
-	
-	cout << "1D dynamic arrays example:" << "\n";
-	run1DDynamicArrayExample();
-	cout << string(50, '-') << "\n";
-	
-	cout << "2D dynamic arrays example:" << "\n";
-	run2DDynamicArrayExample();
-	cout << string(50, '-') << "\n";
+	runEmployeeExample();
+	cout << "\n\n";
+	runCompanyExample();
 }
 

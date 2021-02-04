@@ -147,15 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="competition.cpp" />
+    <ClCompile Include="Company.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="params.cpp" />
-    <ClCompile Include="pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="competition.hpp" />
-    <ClInclude Include="params.hpp" />
-    <ClInclude Include="pointers.hpp" />
+    <ClInclude Include="Company.hpp" />
+    <ClInclude Include="Department.hpp" />
+    <ClInclude Include="Employee.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

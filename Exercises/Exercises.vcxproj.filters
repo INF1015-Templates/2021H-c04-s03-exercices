@@ -20,13 +20,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="competition.cpp">
+    <ClCompile Include="Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="params.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pointers.cpp">
+    <ClCompile Include="Company.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,13 +35,13 @@
     <None Include=".vscode\settings.json" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="competition.hpp">
+    <ClInclude Include="Employee.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="params.hpp">
+    <ClInclude Include="Company.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pointers.hpp">
+    <ClInclude Include="Department.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -8,12 +8,10 @@ project(Exercices)
 # On met les fichiers sources (incluant les entêtes)
 set(ALL_FILES
     "main.cpp"
-    "competition.hpp"
-    "params.hpp"
-    "pointers.hpp"
-    "competition.cpp"
-    "params.cpp"
-    "pointers.cpp")
+    "Employee.hpp"
+    "Employee.cpp"
+    "Company.hpp"
+    "Company.cpp")
 
 add_executable(${PROJECT_NAME} ${ALL_FILES})
 
