@@ -1,6 +1,7 @@
 output/
 CMakeFiles/
 CMakeCache.txt
+* - Copy.*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

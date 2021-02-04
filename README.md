@@ -1,14 +1,11 @@
-# Paramètres, références et pointeurs (semaine 2)
+# Classes, constructeurs, destructeurs (semaine 3)
 
-## Fichiers `params.*` et `pointeurs.*`
+## Fichiers `Employee.*` et `Company.*`
 
 Ce sont les exemples des slides, mais écrits différemment et un peu plus élaborés.
 
-## Fichiers `competition.*`
+On fait ensemble les implémentations des méthodes durant le cours comme exercices.
 
-Exercice de la page 10 (~milieu) des slides sur les paramètres. Les *notes* des juges sont des `int`. Les trois fonctions doivent être implémentées de trois façons différentes :
+## Fichiers `tuples.*`
 
-- v1 : Avec des tableaux statiques
-- v2 : Avec des `std::vector`
-- v3 : Avec des `std::span`
-
+Exemples sur les tuples.
